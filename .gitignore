@@ -1,13 +1,10 @@
-# Frontend
 frontend/
 
-# Compiled output
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# IDE files
 .idea/
 *.iws
 *.iml
@@ -16,7 +13,6 @@ target/
 *.sublime-workspace
 *.sublime-project
 
-# Eclipse
 .apt_generated
 .classpath
 .factorypath
@@ -24,6 +20,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.gitignore
 
 # NetBeans
 /nbproject/private/
@@ -35,33 +32,27 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# Dependencies
 node_modules/
 package-lock.json
 yarn.lock
 
-# Logs
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Operating System
 .DS_Store
 Thumbs.db
 
-# H2 Database files
 /data/
 *.db
 *.trace.db
 *.lock.db
 
-# Application properties overrides
 application-*.properties
 !application.properties
 !application-test.properties
 
-# Environment variables
 .env
 .env.*
